@@ -1,8 +1,117 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Website</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-    </body>
-</html>
+<body>
+    <canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+    var c=document.getElementById("myCanvas");
+    var ctx=c.getContext("2d");
+    ctx.fillStyle="blue";
+    ctx.fillRect(0,0,80,100);
+</script>
+
+   
+<details>
+    <summary>Copyright 1999-2014.</summary>
+    <p>-by Refsnes Data. All rights Reserved.</p>
+    <p>All content and graphics on this web site are the propery of the company Refsnes Data.</p>
+</details>
+
+<p><b>Note:</b> The details tag is currently only supported in Opera, chrome,and in Safari 6.</p>
+
+<form action="demo_form.asp" method="get">
+    <input list="abc" name="browser">
+    <datalist id="abc">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Safari"></option>
+    </datalist>
+    <input type="submit">
+</form>
+
+<p><strong>Note: </strong>The datalist tag is not supported in Internet Explorer 9 and earlier versions, or in Safari.</p>
+
+<embed src="helloworld.swf">
+<p>This pulpit Rock is a massive cliff 604 meters (1982 feet) above Lysefjorden,
+    opposite the Kjerag plateau, in Forsand, Ryflke, norway. the top of the cliff is
+     approximately 25 by 25 meters (81 by 82 feet) square and almost flat, and is a 
+     famous tourist attraction is Norway.
+</p>
+<figure>
+    <img src="LpuLogo.avif" alt="The Pulpit Rock" width="304" height="228">
+</figure>
+
+<img src="LpuLogo.avif" alt="The Pulpit Rock" width="304" height="228">
+<br><br>
+<article>
+    <hgroup>
+        <h1>Title goes here</h1>
+        <h2>Subtitle of article</h2>
+    </hgroup>
+    <p>Lorem ipsum dolor sit...</p>
+    <header>
+        <h1>Most important heading here</h1>
+        <h3>Less important heading here</h3>
+        <p>Some additional information here</p>
+    </header>
+    <p>Lorem, ipsum dolor sit amet consectetur...</p>
+</article>
+<br><br>
+<footer>
+    <p>Posted by: Hege Refsnes</p>
+    <p>Contact information: <a 
+        href="mailto:someone@example.com">someone@example.com</a>
+    </p>
+</footer>
+<br><br>
+<form action="demo_keygen.asp" method="get">
+    Username: <input type="text" name="usr_name">
+    Encryption:<keygen name="security">
+    <input type="submit">
+</form>
+<p><strong>Note: </strong>The keygen tag is not supported in Internet Explorer.</p>
+<br><br>
+<p><b>Note: </b>The dialog tag is currently only supported in Chrome version 37+, 
+    Safari 6+ and Opera 24+.</p>
+    <table>
+        <tr>
+            <th>January <dialog open> This is an dialog window </dialog></th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>28</td>
+            <td>31</td>
+        </tr>
+    </table>
+    <dialog open><mark>&nbsp; &nbsp; Hello World &nbsp; &nbsp;</mark></dialog><br><br><br>
+
+<p>Display a guage:</p>
+<meter value="2" min="0" max="10">2 out of 10</meter><br>
+<meter value="0.6">60%</meter>
+
+<p><strong>Note: </strong>The meter tag is not supported 
+    in Internet Explorer or Safari 5 (and earlier versions).</p>
+
+<br><br>
+
+<nav>
+    <a href="/html">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a> |
+</nav>
+
+<br><br>
+
+Downloading Progress:
+<progress value="42" max="100">
+    </progress>
+
+<p><strong>Note: </strong>The progress tag is not supported in internet explorer 9 and earlier versions.</p>
+
+
+</video>
+</body>
+</html> 
